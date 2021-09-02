@@ -25,5 +25,5 @@ jobs:
         env:
           REPO: self
           BRANCH: main
-          FOLDER: src
+          FOLDER: lib 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
